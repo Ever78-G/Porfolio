@@ -1,0 +1,36 @@
+.Bento_print {
+    display: block;
+    align-items: center;
+    width: 830px;
+    min-height: 405px;
+    padding: 20px; /* Agregar algo de espacio interno */
+    margin: 20px auto; /* Centrar en la página */
+    background-color: rgba(79, 5, 143, 0.3);
+    border-radius: 5px;
+}
+
+
+.Bento_print article {
+    width: 70%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    padding: 10px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.imagen {
+    width: 150px; /* Ajusta según el tamaño deseado */
+    height: 150px;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+    display: inline-block;
+    justify-content: center;
+    border: 3px solid aqua; /* Borde opcional */
+}
+
+.imagen img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: 100%;
+    object-fit: cover; /* Recorta la imagen para que se vea bien */
+}

@@ -1,0 +1,22 @@
+.title_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+  }
+  
+  .title_sub {
+    color: #9ca3af; /* equivalente a text-gray-400 de Tailwind */
+    margin: 0%;
+    margin-bottom: 4px; /* Ajusta el espacio entre títulos */
+
+  }
+  
+  .title_main {
+    padding: 0%;
+    font-size: 1.875rem; /* equivalente a text-3xl */
+    line-height: 2.25rem;
+    margin: 0%;
+
+  }
+  
