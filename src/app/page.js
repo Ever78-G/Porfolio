@@ -7,6 +7,7 @@ import NavbarTest from "@/components/nabvar";
 import Titlecomponent from "@/components/title";
 import ProjectSlider from "@/components/projectslider";
 import Skills from "@/components/competencies";
+import style_skill from "../styles/competencies.module.css"
 
 export default function Home() {
   return (
@@ -18,17 +19,17 @@ export default function Home() {
      
       <Titlecomponent title="Proyectos" subtitle="Porfolio" />
       <ProjectSlider />
-
-      <h1 style={{textAlign:"center"}}>Skill</h1> 
-      <div className={styleporject.project_container}>
-        <Skills/>
-        <Skills/>
-        <Skills/>
-        <Skills/>
-        <Skills/>
+      <Titlecomponent title="Tech Skills" subtitle="Competencias" />
+      <Skills />
 
 
+      <div className={style_skill.skills_container} id="skill">
+        <p>jajdjajdshdshahdhasdadgjasdadshdghasdghasghdghasghdasdhasdhadsgh</p>
       </div>
+
+   
+
+
 
 
     </div>

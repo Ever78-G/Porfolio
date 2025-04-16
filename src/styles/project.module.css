@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     width: 830px;
-    min-height: 405px;
     padding: 20px;
     margin: 20px auto;
     background-color: rgba(79, 5, 143, 0.3);
@@ -14,11 +13,10 @@
 .Bento_project{
     display: block;
     align-items: center;
-    background-color: blue;
     width: 85%;
     padding: 20px; /* Agregar algo de espacio interno */
     border-radius: 5px;
-    background-color: rgb(200, 18, 245);
+    background-color: rgb(120, 61, 206)
 }
 
 .cuadro{

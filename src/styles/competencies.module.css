@@ -1,0 +1,49 @@
+.skills_container {
+  display: block;
+  width: 830px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgba(79, 5, 143, 0.3);
+  border-radius: 5px;
+  align-items: center;
+
+}
+
+.skills {
+  display: inline-block;
+  align-items: center;
+  width: 30%;
+  margin: 10px;
+
+}
+
+.skill_bar {
+  height: 20px;
+  width: 95%;
+  border-radius: 6px;
+  margin: 6px;
+  overflow: hidden; /* Asegura que nada se salga del contenedor */
+  background-color: black;
+}
+
+.skill_per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 0; /* Se sobrescribe con inline style */
+  border-radius: 6px;
+  background-color:rgb(20, 216, 217);
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

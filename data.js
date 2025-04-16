@@ -30,7 +30,7 @@ export const itemsNavbar = [
     },
     {
         id: 2,
-        title: "User",
+        title: "skill",
         icon: <UserRound size={20} />,
         link: "#about-me",
     },
@@ -50,7 +50,7 @@ export const itemsNavbar = [
         id: 5,
         title: "Home",
         icon: <Mail size={20} />,
-        link: "#contact",
+        link: "#skill",
     },
 ];
 

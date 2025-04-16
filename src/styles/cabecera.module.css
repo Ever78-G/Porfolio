@@ -2,7 +2,6 @@
     display: block;
     align-items: center;
     width: 830px;
-    min-height: 405px;
     padding: 20px; /* Agregar algo de espacio interno */
     margin: 20px auto; /* Centrar en la página */
     background-color: rgba(79, 5, 143, 0.3);
