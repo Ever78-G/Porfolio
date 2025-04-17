@@ -1,7 +1,7 @@
 "use client";
 import PropTypes from "prop-types";
 import styles from "../styles/button.module.css";
-const Buttonapp = ({ typeinput = "submit", value = "", onclicks, className , icon}) => {
+const Buttonapp = ({ typeinput = "submit", value = "", onclicks , icon}) => {
 
   return (
  //conolcar Estilos individuales para los bototones 

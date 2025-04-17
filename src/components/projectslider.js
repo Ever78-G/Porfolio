@@ -6,31 +6,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import styleporject from "../styles/project.module.css"
 import ProjectApp from "./project";
+import {projects} from "../../data"
 
-const projects = [
-  {
-    nameprject: "Finanzas App",
-    description: "App para control de gastos personales",
-    github: "#",
-    link: "#"
-  },
-  {
-    nameprject: "Gestor de tareas",
-    description: "App para gestionar tareas pendientes",
-    github: "#",
-    link: "#"
-  },
-  {
-    nameprject: "Blog Personal",
-    description: "Blog desarrollado en Next.js",
-    github: "#",
-    link: "#"
-  }
-];
 
 const ProjectSlider = () => {
   return (
-    <div className={styleporject.project_container}>
+    <div className={styleporject.project_container}  >
       <Swiper
         modules={[Navigation]}
         spaceBetween={30}

@@ -3,11 +3,11 @@ import style from "../styles/title.module.css"
 
 import { FaPython } from "react-icons/fa";
 
-const Titlecomponent= ({title,subtitle,icon})=>{
+const Titlecomponent= ({title,subtitle,icon,id})=>{
 
 
     return(
-        <div className={style.title_container}>
+        <div className={style.title_container} id={id}>
             <h1 className={style.title_main} >
                 {icon}
 

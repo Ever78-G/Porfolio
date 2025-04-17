@@ -8,15 +8,20 @@ import stylebutton from "..//styles/button.module.css"
 import styleproject from "../styles/project.module.css"
 import buttonStyles  from "../styles/button.module.css"
 import Titlecomponent from "./title";
-import Link from "next/link";
 
 
-const ProjectApp=({nameprject, description,github,link})=>{
+const ProjectApp=({nameprject, description,github,link,imagen})=>{
 
-
-    const handlesubmit=()=>{
+    const handlesubmitgit=()=>{
         console.log("ingresa a la funcion ")
-        window.open("https://www.netflix.com/browse", "_blank");
+        window.open(github, "_blank");
+
+
+    }
+
+    const handlesubmitdemo=()=>{
+        console.log("ingresa a la funcion ")
+        window.open(link, "_blank");
 
 
     }
@@ -34,7 +39,7 @@ const ProjectApp=({nameprject, description,github,link})=>{
             
 
                 <p className={styleproject.cuadro}>
-                Este proyecto consiste en una aplicación web tipo dashboard diseñada para ayudar a los usuarios a gestionar y visualizar sus gastos personales de manera clara y eficiente. Su objetivo principal es brindar una herramienta intuitiva para llevar control de los ingresos, egresos y presupuestos mensuales.
+                    {description}
                 </p>
               
 
@@ -47,13 +52,15 @@ const ProjectApp=({nameprject, description,github,link})=>{
                 <Buttonapp 
                 value="GitGub"
                 typeinput="button"
-                onclicks={handlesubmit}
+                onclicks={handlesubmitgit}
                 icon={<FaGithub size={20}
                  />}
 
                 />
                 <Buttonapp
                 value="Demo Live"
+                typeinput="button"
+                onclicks={handlesubmitdemo}
                 icon={<FiSend size={20}/>}
                 
                 />

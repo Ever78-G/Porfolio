@@ -16,12 +16,11 @@
     padding: 20px 28px;
     font-size: 16px;
     color: white;
-    background: #4F058F;
+    background: #34495E;
     text-align: center;
-    border: 1px solid white;
     border-radius: 5px;
-    cursor: pointer;
     transition: transform 0.1s ease; /* transición suave para la animación */
+    border: none;
 }
 
 .buttonstyles:active {

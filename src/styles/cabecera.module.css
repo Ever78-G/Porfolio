@@ -25,7 +25,6 @@
     overflow: hidden; /* Evita que la imagen sobresalga */
     display: inline-block;
     justify-content: center;
-    border: 3px solid aqua; /* Borde opcional */
 }
 
 .imagen img {

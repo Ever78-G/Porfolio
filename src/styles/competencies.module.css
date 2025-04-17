@@ -23,7 +23,9 @@
   border-radius: 6px;
   margin: 6px;
   overflow: hidden; /* Asegura que nada se salga del contenedor */
-  background-color: black;
+  background-color: #12002F;
+  border: 0.3px solid white;
+
 }
 
 .skill_per {
@@ -32,7 +34,7 @@
   height: 100%;
   width: 0; /* Se sobrescribe con inline style */
   border-radius: 6px;
-  background-color:rgb(20, 216, 217);
+  background-color:#34495E;
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
