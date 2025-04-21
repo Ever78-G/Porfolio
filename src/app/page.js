@@ -9,6 +9,7 @@ import ProjectSlider from "@/components/projectslider";
 import Skills from "@/components/competencies";
 import style_skill from "../styles/competencies.module.css"
 import Contact from "@/components/contact";
+import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -23,6 +24,20 @@ export default function Home() {
       <Titlecomponent title="Ponte en contacto conmigo" subtitle="Mis Contactos"/>
 
       <Contact/>
+      <Script
+        type="module"
+        src="https://cdn.voiceflow.com/widget-next/bundle.mjs"
+        onLoad={() => {
+          window.voiceflow.chat.load({
+            verify: { projectID: '680689dac58d040f72dae89e' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production',
+            voice: {
+              url: 'https://runtime-api.voiceflow.com',
+            },
+          });
+        }}
+      />
 
    
 
